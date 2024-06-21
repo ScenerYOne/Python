@@ -9,7 +9,6 @@ print(b)
 print(c)
 print(d)
 
-#Exercise2
 
 e = np.zeros((3, 4))
 f = np.ones((2, 3, 4), dtype=np.int16)
