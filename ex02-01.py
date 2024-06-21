@@ -23,4 +23,4 @@ df5 = grouped.get_group("35days")
 df6 = df.sample(n=1)
 df7 = df.sample(frac=0.5)
 
-print(df7)
+print(df1)
