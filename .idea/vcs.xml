@@ -4,6 +4,5 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ProjectIOT_DATA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python101" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/python_le" vcs="Git" />
   </component>
 </project>
