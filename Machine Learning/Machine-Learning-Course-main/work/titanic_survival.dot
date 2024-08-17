@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<PassengerId &le; 889.5<br/>entropy = 0.804<br/>samples = 100.0%<br/>value = [0.755, 0.245]<br/>class = Not Survived>, fillcolor="#edaa79"] ;
+1 [label=<Sex &le; 0.5<br/>entropy = 0.943<br/>samples = 68.1%<br/>value = [0.64, 0.36]<br/>class = Not Survived>, fillcolor="#f4c8a9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Age &le; 9.5<br/>entropy = 0.706<br/>samples = 46.7%<br/>value = [0.808, 0.192]<br/>class = Not Survived>, fillcolor="#eb9f68"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.787<br/>samples = 1.6%<br/>value = [0.235, 0.765]<br/>class = Survived>, fillcolor="#76bbed"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.661<br/>samples = 45.1%<br/>value = [0.828, 0.172]<br/>class = Not Survived>, fillcolor="#ea9b62"] ;
+2 -> 4 ;
+5 [label=<Pclass &le; 1.5<br/>entropy = 0.845<br/>samples = 21.4%<br/>value = [0.272, 0.728]<br/>class = Survived>, fillcolor="#83c2ef"] ;
+1 -> 5 ;
+6 [label=<entropy = 0.317<br/>samples = 11.7%<br/>value = [0.057, 0.943]<br/>class = Survived>, fillcolor="#45a3e7"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.998<br/>samples = 9.7%<br/>value = [0.529, 0.471]<br/>class = Not Survived>, fillcolor="#fcf1e9"] ;
+5 -> 7 ;
+8 [label=<entropy = 0.0<br/>samples = 31.9%<br/>value = [1.0, 0.0]<br/>class = Not Survived>, fillcolor="#e58139"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
