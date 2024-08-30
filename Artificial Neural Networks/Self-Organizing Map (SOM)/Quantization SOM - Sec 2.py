@@ -98,7 +98,7 @@ def PixelMapping(image_in, codebook):
     return image_out
 
 # อ่านภาพที่ให้มา
-image = cv2.imread('Self-Organizing Map (SOM)/images/monkey.jpeg')
+image = cv2.imread('images\monkey.jpeg')
 
 # ตรวจสอบว่าไฟล์ภาพถูกอ่านได้หรือไม่
 if image is None:
